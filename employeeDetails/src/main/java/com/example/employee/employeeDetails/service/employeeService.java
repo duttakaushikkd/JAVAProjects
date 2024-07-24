@@ -39,6 +39,15 @@ public class employeeService implements employeeImplementation{
 		
 		
 	}
+
+	@Override
+	public String deleteAll() {
+		employeerepo.deleteAll();
+		return "deletion done!!";
+		
+	}
+
+
 	
 
 }

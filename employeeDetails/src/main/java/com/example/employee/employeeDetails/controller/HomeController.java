@@ -4,7 +4,9 @@ import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -28,9 +30,16 @@ public class HomeController {
 	}
 	
 	
-	@PostMapping("/deleteOne")
-	public String deleteOne(int id){
+	@DeleteMapping("/deleteOne/{id}")
+	public String deleteOne(@PathVariable int id){
 		return employeeimpl.delete(id);
 	}
+	
+	
+	@DeleteMapping("/deleteAll")
+	public String deleteAll(){
+		return employeeimpl.deleteAll();
+	}
+
 
 }

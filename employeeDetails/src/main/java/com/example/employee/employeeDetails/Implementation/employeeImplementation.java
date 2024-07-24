@@ -11,5 +11,6 @@ public interface employeeImplementation {
 	Optional<employee> getOne(int id);
 	String delete(int id);
 	String addOne(employee emp);
+	String deleteAll();
 
 }
