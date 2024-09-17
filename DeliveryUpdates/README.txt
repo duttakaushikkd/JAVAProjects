@@ -1,0 +1,1 @@
+This project is a demo of how apache kafka can be used to establish communication between the services.
