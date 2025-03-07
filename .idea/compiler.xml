@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="employeeDetails (1) (com.example)" />
+        <module name="endUser" />
+        <module name="deliveryPerson" />
+        <module name="watchMore" />
+        <module name="employeeDetails" />
+        <module name="apiGateway" />
+        <module name="api-gateway" />
+        <module name="EmployeeManagement" />
+        <module name="adminDetails" />
+        <module name="naming-server" />
+        <module name="bookingDetails" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="EmployeeManagement" options="-parameters" />
+      <module name="adminDetails" options="-parameters" />
+      <module name="api-gateway" options="-parameters" />
+      <module name="apiGateway" options="-parameters" />
+      <module name="bookingDetails" options="-parameters" />
+      <module name="deliveryPerson" options="-parameters" />
+      <module name="employeeDetails" options="-parameters" />
+      <module name="employeeDetails (1) (com.example)" options="-parameters" />
+      <module name="endUser" options="-parameters" />
+      <module name="naming-server" options="-parameters" />
+      <module name="watchMore" options="-parameters" />
+    </option>
+  </component>
+</project>
